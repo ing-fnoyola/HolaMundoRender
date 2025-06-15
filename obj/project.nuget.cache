@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "aOS46suTSkg=",
+  "dgSpecHash": "yuYLzKHVyQc=",
   "success": true,
   "projectFilePath": "C:\\Users\\Paco\\source\\repos\\HolaMundoRender\\HolaMundoRender\\HolaMundoRender.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Paco\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
   "logs": []
 }

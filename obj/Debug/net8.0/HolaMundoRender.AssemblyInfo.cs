@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("22578e1e-ae4c-496c-af31-ccf03f50c24e")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("HolaMundoRender")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bb2f5779a635bbb97e6794281135edfdbc63f4e")]
 [assembly: System.Reflection.AssemblyProductAttribute("HolaMundoRender")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HolaMundoRender")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

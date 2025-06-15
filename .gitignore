@@ -1,0 +1,17 @@
+# Carpeta de configuraciones de Visual Studio
+.vs/
+
+# Carpetas de compilación
+[Bb]in/
+[Oo]bj/
+
+# Archivos de usuario y de compilación específicos de la máquina
+*.user
+*.suo
+
+# Archivos generados por Rider
+.idea/
+
+# Archivos de caché de Mac/Linux/Windows
+.DS_Store
+Thumbs.db

@@ -12,8 +12,8 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["HolaMundoRender/HolaMundoRender.csproj", "HolaMundoRender/"]
-RUN dotnet restore "./HolaMundoRender/HolaMundoRender.csproj"
+COPY ["HolaMundoRender.csproj", "."]
+RUN dotnet restore "HolaMundoRender.csproj"
 COPY . .
 WORKDIR "/src/HolaMundoRender"
 RUN dotnet build "./HolaMundoRender.csproj" -c $BUILD_CONFIGURATION -o /app/build
